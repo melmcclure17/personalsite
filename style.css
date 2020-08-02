@@ -1,0 +1,48 @@
+body {
+    background-color: #100D26;
+    color: #483d8b;
+    text-align: center;
+          }
+h1, h2, h3 {
+    color:darkviolet;
+}
+
+hr {
+    border-color: darkviolet;
+    border-style: solid none none none;
+    height:0px;
+    border-width: 2px;
+    width:75%;
+          }
+.nav {
+    background-color: #100D26;
+    color: #483d8b;
+    text-align: center;
+    font-size: 100%;
+          }
+.displaybox {
+    border-color:darkviolet;
+    border-style: solid;
+    
+    height:0px;
+    border-width: 2px;
+    width:75%;
+    
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    margin: 0% 0% 0% 0%;
+}
+          
+.icon {
+    width: 300px;
+    padding: 5% 5% 5% 5%; <!-- top right bottom left-->
+    
+    
+          }
+.video {
+    width: 300px;
+          }
+.rounded {
+    
+          }
+#comment?

@@ -10,12 +10,14 @@
     <meta charset="UTF-8" />
     <meta name="description" content="this is Mel's website" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+      
   </head>
   <body>
-    <table>
+    <table class="nav">
       <tr>
         <td>
-                    <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71715637_100716738008503_5728002710771335168_n.png?_nc_cat=100&_nc_sid=85a577&_nc_ohc=d1oSUt2p8IMAX-A6ZTH&_nc_ht=scontent-lax3-1.xx&oh=90a3b986a7a69ad685183212abdd0c58&oe=5F47AB5E" alt="YINA logo" width="200px" />
+                    <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71715637_100716738008503_5728002710771335168_n.png?_nc_cat=100&_nc_sid=85a577&_nc_ohc=d1oSUt2p8IMAX-A6ZTH&_nc_ht=scontent-lax3-1.xx&oh=90a3b986a7a69ad685183212abdd0c58&oe=5F47AB5E" alt="Mel's logo" width="200px" class="rounded"/>
 
         </td>
         <td>
@@ -23,20 +25,29 @@
           <h3><em>Illustrator, Game and Web developer.</em></h3>
         </td>
       </tr>
-    </table>
-
-    <nav>
-      <hr size="4" noshade align="left" />
+    <tr>
+        
+        <td>
+            <hr>
+            <nav>
+      
       <a href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="store.html">Store</a>
       <a href="about.html">About</a>
-      <hr size="4" noshade align="left" />
+      
     </nav>
+            <hr>
+        </td>
+        
+        </tr>
+    </table>
+
+    
 
     <h2>Portfolio</h2>
 
-    <table border="5">
+    <table class="displaybox">
       <thead>
         <h3>Games</h3>
       </thead>
@@ -44,10 +55,10 @@
         <table>
           <tr>
             <td>
-              <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71715637_100716738008503_5728002710771335168_n.png?_nc_cat=100&_nc_sid=85a577&_nc_ohc=d1oSUt2p8IMAX-A6ZTH&_nc_ht=scontent-lax3-1.xx&oh=90a3b986a7a69ad685183212abdd0c58&oe=5F47AB5E" alt="YINA" width="300px" />
+              <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71715637_100716738008503_5728002710771335168_n.png?_nc_cat=100&_nc_sid=85a577&_nc_ohc=d1oSUt2p8IMAX-A6ZTH&_nc_ht=scontent-lax3-1.xx&oh=90a3b986a7a69ad685183212abdd0c58&oe=5F47AB5E" alt="YINA"  class="icon" class="rounded"/>
             </td>
             <td>
-              YINA is a third-person platformer available on Steam. The science
+              <strong>YINA</strong> is a third-person platformer available on Steam. The science
               fiction game is largely story focused, though the player can also
               enjoy No-Man's-Sky-style cataloguing, as well as collecting and
               grinding for currency.
@@ -58,37 +69,37 @@
               <img
                 src="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/67389386_1162989410551789_8399647069834308760_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=101&_nc_ohc=4qvPB-V8ez0AX-qZyq7&oh=9e7257462592c9d6c8c6370733cfda4a&oe=5F3515CB"
                 alt="Spinny Adeventures"
-                width="300px"
+                width="300px" class="icon" class="rounded"
               />
             </td>
-            <td>Spinny Adventures is a third-person fantasy game available on Steam. You play as Spindelin "Spinny" Merryberry, a young farmer/handyperson/entreprenure/magician living in the coastal town of Birchvale.</td>
+            <td><strong>Spinny Adventures</strong> is a third-person fantasy game available on Steam. You play as Spindelin "Spinny" Merryberry, a young farmer/handyperson/entreprenure/magician living in the coastal town of Birchvale.</td>
           </tr>
           <tr>
             <td>
               <img
                 src="images/towerwip001.png"
                 alt="CERE:S"
-                width="300px"
+                width="300px" class="icon" class="rounded"
               />
             </td>
-            <td>CERE:S is an educational first-person science fiction game available on Steam. Subjects including mathematics, physics, biology and computer science are available to learn and practice by children, teens, and adults.</td>
+            <td><strong>CERE:S</strong> is an educational first-person science fiction game available on Steam. Subjects including mathematics, physics, biology and computer science are available to learn and practice by children, teens, and adults.</td>
           </tr>
           <!-- -->
         </table>
       </td>
     </table>
 
-    <table border="5">
+    <table class="displaybox">
       <thead>
         <h3>Animation</h3>
       </thead>
       <tr>
-        <td><img src="images/halloweenspinny03.png" alt="Spinny Broom Animation" width="300px" />
+        <td><img src="images/halloweenspinny03.png" alt="Spinny Broom Animation" width="300px" class="video" />
             </td>
         <td>
           <img src="images/! HP PROMOTIONAL ADS07.png"
             alt="SIPSCO Beer Ad Animation"
-            width="300px"
+            width="300px" class="video"
           />
         </td>
       </tr>
@@ -97,31 +108,107 @@
     <h3>Websites</h3>
     <a href="index.html" alt="">Here</a>
 
-    <table border="5">
+    <table class="displaybox">
       <thead>
         <h3>Illustration</h3>
       </thead>
       <tr>
         <td>
           <img
-            src="https://c10.patreonusercontent.com/3/eyJoIjozNjAsInciOjM2MH0%3D/patreon-media/p/post/38569042/e26a3584371947b7a07c265deeb592c5/1.png?token-time=1595721543&token-hash=TGwr_aBOlvZGQBKRXOk7SkpzSIFhrTsSvd1v2klNRqM%3D"
-            alt="Concept Illustration of CERE:S Tower"
-            width="300px"
+            src="images/halloweensims.jpg"
+            alt="Halloween Spinny"
+            width="300px" class="icon"
+          />
+        </td>
+          <td>
+          <img
+            src="images/blue0005.jpg"
+            alt="Orange"
+            width="300px" class="icon"
+          />
+        </td>
+          <td>
+          <img
+            src="images/blue0001.png"
+            alt="Blue"
+            width="300px" class="icon"
+          />
+        </td>
+      </tr>
+        <tr>
+        
+            <td>
+          <img
+            src="images/towerwip001.png"
+            alt="CERE:S Tower"
+            width="300px" class="icon"
+          />
+        </td>
+          <td>
+          <img
+            src="images/Vector PortaitsChar04.png"
+            alt="Charla"
+            width="300px" class="icon"
+          />
+        </td>
+          <td>
+          <img
+            src="images/Vector PortaitsSeph03.png"
+            alt="Seph"
+            width="300px" class="icon"
           />
         </td>
       </tr>
     </table>
 
-    <table border="5">
+    <table class="displaybox">
       <thead>
         <h3>3D Models</h3>
       </thead>
       <tr>
         <td>
           <img
-            src="https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/38569042/53375e54ea564abba66c316f7a2b8eac/1.png?token-time=1595721543&token-hash=nimYfobOTcR6S_7VmqWpKRIdsSIU_5NjATjl_nkWYSM%3D"
+            src="images/towerwip001.png"
             alt="CERE:S Tower"
-            width="300px"
+            width="300px" class="icon"
+          />
+        </td>
+          <td>
+          <img
+            src="images/"
+            alt="Charla"
+            width="300px" class="icon"
+          />
+        </td>
+          <td>
+          <img
+            src="images/"
+            alt="Cage Plant"
+            width="300px" class="icon"
+          />
+        </td>
+      </tr>
+        <tr>
+        <td>
+          <img
+            src="images/"
+            alt="Spinny"
+            width="300px" class="icon"
+          />
+        </td>
+          
+            <td>
+          <img
+            src="images/"
+            alt="Sjin"
+            width="300px" class="icon"
+          />
+        </td>
+          <td>
+          <img
+            src="images/"
+            alt="Sips"
+            width="300px" class="icon"
           />
         </td>
       </tr>
