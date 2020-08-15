@@ -3,11 +3,17 @@ body {
     color:#6E64AE;
     text-align: center;
           }
-h2 {
-    color:#6E64AE;
+
+h1 {
     
+    color:#8D7DF0;
 }
-h1, h3 {
+
+h2 {
+    color:#6E64AE; 
+}
+
+h3 {
     
     color:#8D7DF0;
 }
@@ -24,9 +30,8 @@ hr {
     border-style: solid;
     height:0px;
     border-width: 2px;
-    border-radius: 20%;
     color: #483d8b;
-    font-size: 200%;
+    font-size: 130%;
     padding: 30px;
     
           }
@@ -34,17 +39,46 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
-.displaybox {
+
+/*a:link - a normal, unvisited link, 
+a:visited - a link the user has visited,
+a:hover - a link when a user mouses over it,
+a:active - the moment a link is clicked.*/
+
+    a:link {
+        color:#8D7DF0;
+    }
+    a:visited {
+        color:#6E64AE;
+    }
+    a:hover {
+        color:#7AD6CD;
+    }
+    a:active {
+        color:#86F2E8;
+    }
+.gamesbox {
     border-color:#8D7DF0;
-    border-style: solid;
+    border-style: none;
     
     height:0px;
     border-width: 2px;
     
     text-align: center;
     
+    padding: 0% 20% 5% 20%;
+}
+
+.displaybox {
+    border-color:#8D7DF0;
+    border-style: none;
     
-    padding: 5% 5% 5% 5%;
+    height:0px;
+    border-width: 2px;
+    
+    text-align: center;
+    
+    padding: 0% 5% 5% 5%;
 }
           
 .icon {
@@ -53,7 +87,7 @@ table {
     object-fit:cover;
     border-radius: 20%;
     border-color:#8D7DF0;
-    border-style: solid;
+    border-style: none;
           }
 .video {
     width:300px;
@@ -61,7 +95,7 @@ table {
     object-fit:cover;
     
     border-color:#8D7DF0;
-    border-style: solid;
+    border-style: none;
           }
 
 .logo {
